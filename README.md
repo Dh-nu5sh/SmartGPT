@@ -57,7 +57,7 @@ source ~/.bashrc
 Ask SmartGPT anything:
 
 ```bash
-smartgpt "How do I scan my local network for open ports?"
+smartgpt --run "give me command to scan subnet 192.168.0.0/24"
 ```
 
 The AI will respond, then ask if you want to **execute the suggested command(s)**.
