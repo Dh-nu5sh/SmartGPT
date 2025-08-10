@@ -28,10 +28,10 @@ Run the following in your terminal **after installing and configuring aichat**:
 
 ```bash
 cd ~
-wget https://github.com/Dh-nu5sh/SmartGPT.git (for only sh file)
-or
 git clone https://github.com/Dh-nu5sh/SmartGPT.git (for contribution and whole files)
-chmod +x ~/smartgpt.sh
+cd SmartGPT/
+chmod +x ~/SmartGPT/smartgpt.sh
+
 ```
 
 ---
@@ -41,15 +41,30 @@ chmod +x ~/smartgpt.sh
 ### For **Zsh** users (default on Kali & Parrot OS)
 
 ```bash
-echo 'export PATH="$PATH:$HOME"' >> ~/.zshrc
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.zshrc
+source ~/.zshrc
+[If you want to call smartgpt instead of smartgpt.sh]
+mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+chmod +x ~/SmartGPT/smartgpt
+source ~/.bashrc
+mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+chmod +x ~/SmartGPT/smartgpt
 source ~/.zshrc
 ```
 
 ### For **Bash** users
 
 ```bash
-echo 'export PATH="$PATH:$HOME"' >> ~/.bashrc
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.bashrc
 source ~/.bashrc
+[If you want to call smartgpt instead of smartgpt.sh]
+mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+chmod +x ~/SmartGPT/smartgpt
+source ~/.bashrc
+mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+chmod +x ~/SmartGPT/smartgpt
+source ~/.bashrc
+
 ```
 
 ---
@@ -59,7 +74,7 @@ source ~/.bashrc
 Ask SmartGPT anything:
 
 ```bash
-smartgpt --run "give me command to scan subnet 192.168.0.0/24"
+smartgpt  "give me command to scan subnet 192.168.0.0/24"
 ```
 
 The AI will respond, then ask if you want to **execute the suggested command(s)**.
