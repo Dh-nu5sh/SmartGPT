@@ -28,7 +28,7 @@ Run the following in your terminal **after installing and configuring aichat**:
 
 ```bash
 cd ~
-wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/smartgpt.sh
+[wget https://github.com/Dh-nu5sh/SmartGPT.git]
 chmod +x ~/smartgpt.sh
 ```
 
