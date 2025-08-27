@@ -36,9 +36,24 @@ chmod +x ~/SmartGPT/smartgpt.sh
 
 ---
 
+
+## 🐚 Check Your Shell
+
+Before adding SmartGPT to PATH, check which shell you’re using:
+
+```bash
+echo $SHELL
+```
+
+
+If output contains zsh → follow Zsh steps.
+
+If output contains bash → follow Bash steps.
+---
+
 ## 2️⃣ Add SmartGPT to Your PATH
 
-### For **Zsh** users (default on Kali & Parrot OS)
+### For Zsh users (default on Kali & Parrot OS)
 
 ```bash
 echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.zshrc
