@@ -15,8 +15,6 @@ If you have Rust installed, you can install aichat using Cargo:
 
 ```bash
 cargo install aichat
-```
-```bash
 aichat --version
 ```
 1. Install **aichat** (follow the official instructions from its repository):  
