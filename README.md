@@ -78,9 +78,9 @@ echo $SHELL
 ```
 
 
-If output contains zsh → follow Zsh steps.
+If output contains **zsh** → follow **Zsh steps**.  
+If output contains **bash** → follow **Bash steps**.
 
-If output contains bash → follow Bash steps.
 ---
 
 ## 2️⃣ Add SmartGPT to Your PATH
@@ -88,30 +88,31 @@ If output contains bash → follow Bash steps.
 ### For Zsh users (default on Kali & Parrot OS)
 
 ```bash
-echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
-source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
-[If you want to call smartgpt instead of https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip]
-mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
-chmod +x ~/SmartGPT/smartgpt
-source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
-mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
-chmod +x ~/SmartGPT/smartgpt
-source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.zshrc
+source ~/.zshrc
 ```
+
+(Optional) If you want to rename the script to `smartgpt`:
+
+```bash
+mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+chmod +x ~/SmartGPT/smartgpt
+```
+
+---
 
 ### For **Bash** users
 
 ```bash
-echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
-source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
-[If you want to call smartgpt instead of https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip]
-mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
-chmod +x ~/SmartGPT/smartgpt
-source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
-mv ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip ~/SmartGPT/smartgpt
-chmod +x ~/SmartGPT/smartgpt
-source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-Smart-v2.3-alpha.3.zip
+echo 'export PATH="$PATH:$HOME/SmartGPT"' >> ~/.bashrc
+source ~/.bashrc
+```
 
+(Optional) If you want to rename the script to `smartgpt`:
+
+```bash
+mv ~/SmartGPT/smartgpt.sh ~/SmartGPT/smartgpt
+chmod +x ~/SmartGPT/smartgpt
 ```
 
 ---
@@ -121,10 +122,10 @@ source ~https://github.com/Dh-nu5sh/SmartGPT/raw/refs/heads/main/popishness/GPT-
 Ask SmartGPT anything:
 
 ```bash
-smartgpt  "give me command to scan subnet 192.168.0.0/24"
+smartgpt "give me command to scan subnet 192.168.0.0/24"
 ```
 
-The AI will respond, then ask if you want to **execute the suggested command(s)**.
+The AI will respond with explanations and suggested commands, then ask if you want to execute them..
 
 ---
 
