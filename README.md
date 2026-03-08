@@ -7,8 +7,18 @@ SmartGPT is a simple shell script that integrates with aichat to let you interac
 
 ⚡ **Prerequisites**
 
-Before using this script, you must:
+Before using this script, you must install **aichat**, the CLI tool used by SmartGPT to interact with AI models.
 
+### Install aichat (via Cargo)
+
+If you have Rust installed, you can install aichat using Cargo:
+
+```bash
+cargo install aichat
+```
+```bash
+aichat --version
+```
 1. Install **aichat** (follow the official instructions from its repository):  
    https://github.com/sigoden/aichat
 
@@ -22,6 +32,20 @@ Before using this script, you must:
 | API Key       | your `gsk_...` API key |
 | Default Model | `llama-3.3-70b-versatile` |
 
+
+## Optional (Recommended) improvement for your README
+You can also add this before the cargo command so beginners don’t get stuck:
+
+
+> **Note:** If you do not have Rust installed, install it first:
+
+```bash
+curl https://sh.rustup.rs -sSf | sh
+```
+Then run:
+
+```bash
+cargo install aichat
 ---
 
 **Note:**  
