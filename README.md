@@ -1,7 +1,7 @@
 # SmartGPT – Your AI-Powered Pentesting & CLI Buddy.
 
-An interactive terminal assistant for Kali & Parrot OS that explains commands in detail and automates execution with user confirmation (y/n).
-# SmartGPT – AI in Your Terminal
+An interactive terminal assistant for Kali & Parrot OS that explains commands in detail and optionally executes them with user confirmation (y/n).
+## SmartGPT – AI in Your Terminal
 
 SmartGPT is a simple shell script that integrates with aichat to let you interact with AI directly in your terminal — and even execute suggested commands if you want.
 
