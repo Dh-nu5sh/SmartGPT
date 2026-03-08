@@ -46,9 +46,10 @@ Then run:
 
 ```bash
 cargo install aichat
+```
 ---
 
-**Note:**  
+> **Note:** 
 You can use any other OpenAI-compatible API provider such as **OpenAI**, **Gemini**, or other supported services.  
 Groq is used here as an example because it provides fast inference for models like `llama-3.3-70b-versatile`.
 
