@@ -1,6 +1,7 @@
 # SmartGPT – Your AI-Powered Pentesting & CLI Buddy.
 
 An interactive terminal assistant for Kali & Parrot OS that explains commands in detail and optionally executes them with user confirmation (y/n).
+
 ## SmartGPT – AI in Your Terminal
 
 SmartGPT is a simple shell script that integrates with aichat to let you interact with AI directly in your terminal — and even execute suggested commands if you want.
@@ -121,7 +122,7 @@ Ask SmartGPT anything:
 smartgpt "give me command to scan subnet 192.168.0.0/24"
 ```
 
-The AI will respond with explanations and suggested commands, then ask if you want to execute them..
+The AI will respond with explanations and suggested commands, then ask if you want to execute them.
 
 ---
 
