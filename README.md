@@ -33,9 +33,6 @@ aichat --version
 | Default Model | `llama-3.3-70b-versatile` |
 
 
-## Optional (Recommended) improvement for your README
-You can also add this before the cargo command so beginners don’t get stuck:
-
 
 > **Note:** If you do not have Rust installed, install it first:
 
